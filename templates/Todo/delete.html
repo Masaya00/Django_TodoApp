@@ -1,0 +1,15 @@
+{% extends 'Todo/base.html' %}
+
+{% block content %}
+    <div class="container">
+    <div class="alert alert-primary" role="alert">
+    <p>{{ object.title }}</p>
+    <p>{{ object.memo }}</p>
+    <P>{{ object.duedate }}</P>
+    </div>
+    <form action="" method="post">{% csrf_token %}
+        <input type="submit" value="削除します" class="btn btn-primary">
+    </form>
+    </div>
+{% endblock %}
+
