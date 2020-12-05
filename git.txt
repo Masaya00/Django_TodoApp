@@ -6,3 +6,9 @@ git rm
 git status
 git log
 git diff
+
+
+git add . ファイルの変更をステージングエリアへ追加
+git commit　ローカルリポジトリにコミット
+git remote add origin [リモートリポジトリURL] リモートリポジトリを追加
+git push orign master　masterにpushします
