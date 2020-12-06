@@ -12,7 +12,14 @@ git init
 ・git init コマンドを叩くと、gitディレクトリが作成される
 
 ・gitディレクトリには
-COMMIT_EDITMSG	description	info		packed-refs
-HEAD		hooks		logs		refs
-config		index		objects
-上記のファイルが自動で作られる
+    COMMIT_EDITMSG	description	info		packed-refs
+    HEAD		hooks		logs		refs
+    config		index		objects
+    上記のファイルが自動で作られる
+
+ファイルの変更を取り消す
+・$ git checkout -- <ファイル名>
+・$ git checkout -- <ディレクトリ名>
+
+#全変更を取り消す
+・$ git checkout --.
