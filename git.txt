@@ -7,3 +7,12 @@ Gitのデータ構造のまとめ
 ・Gitの本質はデータを圧縮して、スナップショットで保存していること
 
 ・Gitのコマンドは、そのデータに対していろいろな操作をしている
+
+git init
+・git init コマンドを叩くと、gitディレクトリが作成される
+
+・gitディレクトリには
+COMMIT_EDITMSG	description	info		packed-refs
+HEAD		hooks		logs		refs
+config		index		objects
+上記のファイルが自動で作られる
